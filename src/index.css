@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Brogman-Regular";
+  src: url("./fonts/Brogman-Regular.woff2") format("woff2");
+}
+.brogman {
+  font-family: "Brogman-Regular", sans-serif;
+}
+
+@font-face {
+  font-family: "Onder-Regular";
+  src: url("./fonts/Onder-Regular.woff2") format("woff2");
+}
+.onder {
+  font-family: "Onder-Regular", sans-serif;
+}
+@font-face {
+  font-family: "PlastoTrial-Regular";
+  src: url("./fonts/PlastoTrial-Regular.woff2") format("woff2");
+}
+.plasto {
+  font-family: "PlastoTrial-Regular", sans-serif;
+}
+
+@font-face {
+  font-family: "Bower-Bold";
+  src: url("./fonts/Bower-Bold.woff2") format("woff2");
+}
+.bower {
+  font-family: "Bower-Bold", sans-serif;
+}
+
+.image-bg {
+  filter: blur(3px);
+  transform: scale(1.02);
+}
+
+/* Custom styles for Swiper pagination */
+.swiper-pagination-bullet {
+  background-color: #d1d5db !important; /* Tailwind gray-300 */
+  opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #3c3c40 !important; /* Tailwind indigo-500 */
+}
+
+@import 'leaflet/dist/leaflet.css';
+
+/* global.css ya kisi css file mein add karo */
+
+.perspective {
+  perspective: 1000px;
+}
+
+.preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+.react-player-bg video {
+  object-fit: cover !important;
+  width: 100vw !important;
+  height: 100vh !important;
+}
+
+
