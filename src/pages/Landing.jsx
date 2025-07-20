@@ -2,7 +2,7 @@ import { useRef } from "react";
 import Navbar from "../components/Navbar";
 import ReactPlayer from "react-player";
 import FadeContent from "../animations/FadeContent.jsx";
-import bg from "../assets/bg.JPG";
+import bgImage from "../assets/bg.JPG";
 import Hero from "../components/Hero.jsx";
 import Footer from "../components/Footer.jsx";
 
@@ -29,7 +29,7 @@ const Landing = () => {
 
         <img
           ref={imageRef}
-          src={bg}
+          src={bgImage}
           className="image-bg absolute top-0 left-0 w-full h-screen object-cover z-0 "
           alt="Background"
         />
