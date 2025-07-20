@@ -1,8 +1,8 @@
 import Navbar from "../components/Navbar.jsx";
 import Footer from "../components/Footer";
 import commit from "../assets/commit.jpg";
-import client from "../assets/client.jpg";
-import integ from "../assets/integ.jpg";
+import client from "../assets/client.webp";
+import integ from "../assets/integ.webp";
 import prog from "../assets/prog.jpg";
 
 const OurCommit = () => {

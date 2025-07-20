@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar.jsx";
-import govern from "../assets/governance.jpg";
-import advisor1 from "../assets/advisor1.jpg";
+import govern from "../assets/governance.webp";
+import advisor1 from "../assets/advisor1.webp";
 import Footer from "../components/Footer";
 
 const OurGovernance = () => {

@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import letbuild from "../assets/letbuild.jpg"; // Adjust path if needed
+import letbuild from "../assets/letbuild.webp"; // Adjust path if needed
 
 gsap.registerPlugin(ScrollTrigger);
 

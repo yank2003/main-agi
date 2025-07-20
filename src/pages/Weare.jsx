@@ -1,8 +1,8 @@
 import CardSwiperTailwind from "../components/Leadership";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import passion from "../assets/passion.jpg";
-import mission from "../assets/mission.jpg";
+import passion from "../assets/passion.webp";
+import mission from "../assets/mission.webp";
 import { MoveRight } from "lucide-react";
 
 const Weare = () => {

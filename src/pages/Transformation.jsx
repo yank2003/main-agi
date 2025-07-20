@@ -1,5 +1,5 @@
 import transform from "../assets/transform.jpg";
-import transform1 from "../assets/transform1.jpg";
+import transform1 from "../assets/transform1.webp";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import TransCap from "../components/TransformCap";

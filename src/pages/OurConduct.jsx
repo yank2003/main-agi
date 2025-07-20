@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar.jsx";
 import guide from "../assets/guide.jpg";
-import code from "../assets/code.jpg";
+import code from "../assets/code.webp";
 import Footer from "../components/Footer";
 
 const OurConduct = () => {

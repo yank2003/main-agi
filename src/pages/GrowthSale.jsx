@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar";
 import growth from "../assets/growth.jpg";
-import market from "../assets/market1.jpg";
+import market from "../assets/market1.webp";
 
 import GrowthCap from "../components/GrowthCap";
 import Footer from "../components/Footer";

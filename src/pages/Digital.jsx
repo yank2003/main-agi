@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar";
 import digital1 from "../assets/digital1.mp4";
-import digital2 from "../assets/digital2.jpg";
+import digital2 from "../assets/digital2.webp";
 import digital3 from "../assets/digital3.jpg";
 import ReactPlayer from "react-player";
 import { ArrowDownToDot } from "lucide-react";
