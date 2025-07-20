@@ -4,7 +4,7 @@ import group from "../assets/group.jpg";
 import TileCarousel from "./Tiles.jsx";
 import Boxes from "./Boxes.jsx";
 import career from "../assets/career.jpg";
-import work from "../assets/work.jpg";
+import workImage from "../assets/work.jpg";
 import ImpactSection from "./Impact.jsx";
 import { Link } from "react-router-dom";
 
@@ -222,7 +222,7 @@ const Hero = () => {
             {/* Right: Image */}
             <div className="w-1/2 py-10">
               <img
-                src={work}
+                src={workImage}
                 alt="Work"
                 className="w-full h-auto object-cover rounded"
               />
