@@ -1,10 +1,8 @@
-import { useRef, useEffect } from "react";
+import { useRef } from "react";
 import Navbar from "../components/Navbar";
 import ReactPlayer from "react-player";
 import FadeContent from "../animations/FadeContent.jsx";
-import bg from "../assets/bg.jpg";
-import vid from "../assets/vid.mp4";
-import gsap from "gsap";
+import bg from "../assets/bg.JPG";
 import Hero from "../components/Hero.jsx";
 import Footer from "../components/Footer.jsx";
 
@@ -30,11 +28,11 @@ const Landing = () => {
         {/* Background Image with GSAP Zoom Effect */}
 
         <img
-            ref={imageRef}
-            src={bg}
-            className="image-bg absolute top-0 left-0 w-full h-screen object-cover z-0 "
-            alt="Background"
-          />
+          ref={imageRef}
+          src={bg}
+          className="image-bg absolute top-0 left-0 w-full h-screen object-cover z-0 "
+          alt="Background"
+        />
         {/* <div className="h-screen overflow-hidden relative">
           Background Video with ReactPlayer
           <ReactPlayer
@@ -63,7 +61,9 @@ const Landing = () => {
               initialOpacity={0}
               delay={0}
             >
-              <h1 className="brogman text-2xl tracking-wider font-bold">Welcome to</h1>
+              <h1 className="brogman text-2xl tracking-wider font-bold">
+                Welcome to
+              </h1>
             </FadeContent>
 
             <FadeContent
