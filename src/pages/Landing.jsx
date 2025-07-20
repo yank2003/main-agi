@@ -2,7 +2,7 @@ import { useRef } from "react";
 import Navbar from "../components/Navbar";
 import ReactPlayer from "react-player";
 import FadeContent from "../animations/FadeContent.jsx";
-import bgImage from "../assets/bg.JPG";
+import bgImage from "../assets/bg.webp";
 import Hero from "../components/Hero.jsx";
 import Footer from "../components/Footer.jsx";
 
