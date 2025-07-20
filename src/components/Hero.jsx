@@ -1,10 +1,10 @@
 import { MoveRight } from "lucide-react";
-import talk from "../assets/talk.jpg";
-import group from "../assets/group.jpg";
+import talk from "../assets/talk.webp";
+import group from "../assets/group.webp";
 import TileCarousel from "./Tiles.jsx";
 import Boxes from "./Boxes.jsx";
 import career from "../assets/career.jpg";
-import workImage from "../assets/work.JPG";
+import workImage from "../assets/work.webp";
 import ImpactSection from "./Impact.jsx";
 import { Link } from "react-router-dom";
 

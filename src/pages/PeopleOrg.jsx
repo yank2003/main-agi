@@ -1,5 +1,5 @@
 import Navbar from "../components/Navbar";
-import org from "../assets/org.jpg";
+import org from "../assets/org.webp";
 import org1 from "../assets/org1.jpg";
 import OrgCap from "../components/OrgCap";
 import Footer from "../components/Footer";
@@ -18,7 +18,7 @@ const PeopleOrg = () => {
         {/* Overlay Text */}
         <div className="absolute text-center brogman  text-black tracking-wider w-full h-full  flex flex-col  px-20 space-y-6 z-10">
           <h1 className="text-7xl md:text-8xl  font-bold tracking-wide w-full bower">
-            People &amp;<span className="text-green-500"> Organization </span>{" "}
+            People &amp;<span className="text-green-500"> Organizational </span>{" "}
             Performance
           </h1>
           <p className="text-xl md:text-xl text-center text-white">

@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 import ServiceGrid from "../components/Capabilities";
 import scale from "../assets/scale.jpg";
 import Footer from "../components/Footer";
-import groupbg from "../assets/groupbg.jpg"; // adjust path as needed
+import groupbg from "../assets/groupbg.webp"; // adjust path as needed
 
 const OurWork = () => {
   return (
