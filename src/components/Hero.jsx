@@ -4,7 +4,7 @@ import group from "../assets/group.jpg";
 import TileCarousel from "./Tiles.jsx";
 import Boxes from "./Boxes.jsx";
 import career from "../assets/career.jpg";
-import workImage from "../assets/work.jpg";
+import workImage from "../assets/work.JPG";
 import ImpactSection from "./Impact.jsx";
 import { Link } from "react-router-dom";
 
