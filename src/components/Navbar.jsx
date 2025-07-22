@@ -35,7 +35,7 @@ const Navbar = () => {
     currentPath === "/scam-warning" ||
     currentPath === "/terms-of-use" ||
     currentPath === "/privacy-policy" ||
-    currentPath === "/legal-statment";
+    currentPath === "/legal-statement";
 
   // Calculate activeIndex based on currentPath
   const activeIndex = navItems.findIndex((text) => {

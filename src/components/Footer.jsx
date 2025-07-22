@@ -49,7 +49,7 @@ const Footer = () => {
           <a href="/terms-of-use" className="text-gray-600 hover:underline">
             Terms of Use
           </a>
-          <a href="/legal-statment" className="text-gray-600 hover:underline">
+          <a href="/legal-statement" className="text-gray-600 hover:underline">
             Legal Statement
           </a>
         </div>

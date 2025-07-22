@@ -12,13 +12,13 @@ const PeopleOrg = () => {
         <img
           src={org}
           alt=""
-          className="absolute mt-20  top-0 left-0 w-full h-full object-cover z-0"
+          className="absolute mt-20 grayscale-100 top-0 left-0 w-full h-full object-cover z-0"
         />
 
         {/* Overlay Text */}
         <div className="absolute text-center brogman  text-black tracking-wider w-full h-full  flex flex-col  px-20 space-y-6 z-10">
           <h1 className="text-7xl md:text-8xl  font-bold tracking-wide w-full bower">
-            People &amp;<span className="text-green-500"> Organizational </span>{" "}
+            People &amp;<span className="text-white"> Organizational </span>{" "}
             Performance
           </h1>
           <p className="text-xl md:text-xl text-center text-white">

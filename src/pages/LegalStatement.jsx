@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-export const Legal = () => {
+export default function Legal() {
   return (
     <div>
       <Navbar />
@@ -8,7 +8,9 @@ export const Legal = () => {
         <h1 className="bower font-bold text-6xl">Legal Statement</h1>
         <div className="mt-10 space-y-10">
           <div>
-            <p className="bower text-2xl font-bold">1. Limitation of Liability</p>
+            <p className="bower text-2xl font-bold">
+              1. Limitation of Liability
+            </p>
             <p className="brogman tracking-wider mt-4">
               To the fullest extent permitted under applicable law, AGI Growth X
               disclaims all liability for any direct, indirect, incidental,
@@ -86,4 +88,4 @@ export const Legal = () => {
       </div>
     </div>
   );
-};
+}
