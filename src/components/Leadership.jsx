@@ -2,107 +2,52 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import Vikram from "../assets/Vikram.jpg";
+import Sandeep from "../assets/Sandeep.webp";
+import Ranjeet from "../assets/Ranjeet.webp"
+import Vivek from "../assets/Vivek.webp"
+import Kirti from "../assets/Kirti.webp"
+import Bhuvan from "../assets/Bhuvan.jpg"
+import Pradeep from "../assets/Pradeep.jpg"
 
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 
 const cardsData = [
   {
-    photo: "https://randomuser.me/api/portraits/men/32.jpg",
-    name: "Rahul Sharma",
-    designation: "Frontend Developer",
-    about: "Passionate about building beautiful and functional web apps.",
+    photo: Vikram,
+    name: "Mr Vikram Singh Arora",
+    designation: "Founder",
   },
   {
-    photo: "https://randomuser.me/api/portraits/women/44.jpg",
-    name: "Anita Desai",
-    designation: "UI/UX Designer",
-    about: "Loves designing intuitive user interfaces.",
+    photo: Bhuvan,
+    name: "Mr Bhuvan Jha",
+    designation: "Deputy CEO",
   },
   {
-    photo: "https://randomuser.me/api/portraits/men/54.jpg",
-    name: "Vikram Singh",
-    designation: "Project Manager",
-    about: "Ensures timely delivery with quality assurance.",
+    photo: Kirti,
+    name: "Mr Kirtikumar Lakhani",
+    designation: "Vice President - Finance",
   },
   {
-    photo: "https://randomuser.me/api/portraits/men/54.jpg",
-    name: "Vikram Singh",
-    designation: "Project Manager",
-    about: "Ensures timely delivery with quality assurance.",
+    photo: Pradeep,
+    name: "Mr Pradeep Meharishi",
+    designation: "Vice President - SCM & Projects",
   },
   {
-    photo: "https://randomuser.me/api/portraits/men/54.jpg",
-    name: "Vikram Singh",
-    designation: "Project Manager",
-    about: "Ensures timely delivery with quality assurance.",
+    photo: Vivek,
+    name: "Mr Vivek Modi",
+    designation: "Vice President - Finance & Accounts",
   },
   {
-    photo: "https://randomuser.me/api/portraits/men/54.jpg",
-    name: "Vikram Singh",
-    designation: "Project Manager",
-    about: "Ensures timely delivery with quality assurance.",
+    photo: Ranjeet,
+    name: "Mr Ranjeet Rathore",
+    designation: "General Manager - Legal",
   },
   {
-    photo: "https://randomuser.me/api/portraits/men/54.jpg",
-    name: "Vikram Singh",
-    designation: "Project Manager",
-    about: "Ensures timely delivery with quality assurance.",
+    photo: Sandeep,
+    name: "Mr Sandeep Pandita",
+    designation: "Assistant Vice President - Information Technology",
   },
-  {
-    photo: "https://randomuser.me/api/portraits/men/54.jpg",
-    name: "Vikram Singh",
-    designation: "Project Manager",
-    about: "Ensures timely delivery with quality assurance.",
-  },
-  {
-    photo: "https://randomuser.me/api/portraits/men/54.jpg",
-    name: "Vikram Singh",
-    designation: "Project Manager",
-    about: "Ensures timely delivery with quality assurance.",
-  },
-  {
-    photo: "https://randomuser.me/api/portraits/men/54.jpg",
-    name: "Vikram Singh",
-    designation: "Project Manager",
-    about: "Ensures timely delivery with quality assurance.",
-  },
-  {
-    photo: "https://randomuser.me/api/portraits/men/54.jpg",
-    name: "Vikram Singh",
-    designation: "Project Manager",
-    about: "Ensures timely delivery with quality assurance.",
-  },
-  {
-    photo: "https://randomuser.me/api/portraits/men/54.jpg",
-    name: "Vikram Singh",
-    designation: "Project Manager",
-    about: "Ensures timely delivery with quality assurance.",
-  },
-  {
-    photo: "https://randomuser.me/api/portraits/men/54.jpg",
-    name: "Vikram Singh",
-    designation: "Project Manager",
-    about: "Ensures timely delivery with quality assurance.",
-  },
-  {
-    photo: "https://randomuser.me/api/portraits/men/54.jpg",
-    name: "Vikram Singh",
-    designation: "Project Manager",
-    about: "Ensures timely delivery with quality assurance.",
-  },
-  {
-    photo: "https://randomuser.me/api/portraits/men/54.jpg",
-    name: "Vikram Singh",
-    designation: "Project Manager",
-    about: "Ensures timely delivery with quality assurance.",
-  },
-  {
-    photo: "https://randomuser.me/api/portraits/men/54.jpg",
-    name: "Vikram Singh",
-    designation: "Project Manager",
-    about: "Ensures timely delivery with quality assurance.",
-  },
-  // Add more cards if needed
 ];
 
 const CardSwiperTailwind = () => {
@@ -157,11 +102,12 @@ const CardSwiperTailwind = () => {
                     backfaceVisibility: "hidden",
                   }}
                 >
-                  <h3 className="text-xl font-semibold mb-2">{card.name}</h3>
-                  <p className="font-semibold text-gray-700 mb-3">
+                  <h3 className="text-3xl bower  font-semibold mb-2">
+                    {card.name}
+                  </h3>
+                  <p className="font-semibold text-xl brogman tracking-wider text-gray-700 mb-3">
                     {card.designation}
                   </p>
-                  <p className="text-gray-600 text-sm">{card.about}</p>
                 </div>
               </div>
             </div>

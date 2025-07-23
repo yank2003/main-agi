@@ -59,9 +59,10 @@ const Hero = () => {
 
             {/* Right: Text */}
             <div className="w-1/2 text-justify">
-              <h1 className="text-4xl font-bold mb-4">
-                Enabling Execution, Capability, and Strategic Growth at Scale
+              <h1 className="text-4xl font-bold ">
+                Enabling, Execution, Capability
               </h1>
+              <h1 className="text-4xl font-bold mb-4"> and Strategic Growth at Scale</h1>
               <p className="leading-relaxed brogman tracking-wide text-lg">
                 At AGIGrowthX, our model of engagement is grounded in our role
                 as a high-performance Global Capability Center (GCC). We do not
@@ -88,7 +89,7 @@ const Hero = () => {
           <p className="text-gray-700 mb-3 text-lg">
             We deploy multidisciplinary talent and technology expertise across
             business functions to strengthen operations, systems, and
-            decision-making frameworks.
+            decision making frameworks.
           </p>
         </div>
 

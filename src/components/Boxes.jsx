@@ -1,40 +1,50 @@
 import React from "react";
 
-const cards = [
+// Importing images
+import Vikram from "../assets/Vikram.jpg";
+import Sandeep from "../assets/Sandeep.webp";
+import Ranjeet from "../assets/Ranjeet.webp";
+import Vivek from "../assets/Vivek.webp";
+import Kirti from "../assets/Kirti.webp";
+import Bhuvan from "../assets/Bhuvan.jpg";
+import Pradeep from "../assets/Pradeep.jpg";
+
+// Updated data with images
+const cardsData = [
   {
-    name: "Alice Johnson",
-    designation: "Senior Developer",
-    info: "Expert in React and Node.js",
+    photo: Vikram,
+    name: "Mr Vikram Singh Arora",
+    designation: "Founder",
   },
   {
-    name: "Bob Smith",
-    designation: "Project Manager",
-    info: "Skilled in Agile methodologies",
+    photo: Bhuvan,
+    name: "Mr Bhuvan Jha",
+    designation: "Deputy CEO",
   },
   {
-    name: "Carol Lee",
-    designation: "UX Designer",
-    info: "Passionate about user-centric design",
+    photo: Kirti,
+    name: "Mr Kirtikumar Lakhani",
+    designation: "Vice President - Finance",
   },
   {
-    name: "David Kim",
-    designation: "QA Engineer",
-    info: "Loves breaking things to make them better",
+    photo: Pradeep,
+    name: "Mr Pradeep Meharishi",
+    designation: "Vice President - SCM & Projects",
   },
   {
-    name: "Eva Martinez",
-    designation: "Data Scientist",
-    info: "Turns data into insights",
+    photo: Vivek,
+    name: "Mr Vivek Modi",
+    designation: "Vice President - Finance & Accounts",
   },
   {
-    name: "Frank Liu",
-    designation: "DevOps Engineer",
-    info: "Automates everything",
+    photo: Ranjeet,
+    name: "Mr Ranjeet Rathore",
+    designation: "General Manager - Legal",
   },
   {
-    name: "Grace Park",
-    designation: "Marketing Lead",
-    info: "Drives growth with creative campaigns",
+    photo: Sandeep,
+    name: "Mr Sandeep Pandita",
+    designation: "Assistant Vice President - Information Technology",
   },
 ];
 
@@ -43,14 +53,14 @@ export default function SevenBoxesBottom() {
     <div className="max-w-7xl mx-auto px-6 py-10">
       {/* Top row: 3 boxes */}
       <div className="grid grid-cols-3 gap-2 mb-2">
-        {cards.slice(0, 3).map((card, i) => (
+        {cardsData.slice(0, 3).map((card, i) => (
           <SimpleBox key={i} {...card} />
         ))}
       </div>
 
       {/* Middle row: 3 boxes */}
       <div className="grid grid-cols-3 gap-2 mb-2">
-        {cards.slice(3, 6).map((card, i) => (
+        {cardsData.slice(3, 6).map((card, i) => (
           <SimpleBox key={i} {...card} />
         ))}
       </div>
@@ -58,28 +68,27 @@ export default function SevenBoxesBottom() {
       {/* Bottom row: 1 centered box */}
       <div className="flex justify-center">
         <div className="w-1/3">
-          <SimpleBox {...cards[6]} />
+          <SimpleBox {...cardsData[6]} />
         </div>
       </div>
     </div>
   );
 }
 
-function SimpleBox({ name, designation, info }) {
+function SimpleBox({ name, designation, photo }) {
   return (
     <div
       className="bg-white rounded-lg shadow p-6 flex flex-col items-center justify-center
                  hover:shadow-[0_20px_50px_rgba(0,0,0,0.3)] h-[400px]"
     >
       <img
-        src={`https://i.pravatar.cc/80?u=${name}`}
+        src={photo}
         alt={name}
-        className="rounded-full w-20 h-20 object-cover mb-4"
+        className="rounded-full w-50 h-50 object-cover mb-4 object-[center_20%] "
       />
-      <div className="text-center">
-        <h2 className="font-semibold text-lg">{name}</h2>
-        <p className="text-gray-600">{designation}</p>
-        <p className="text-gray-400 text-sm mt-1">{info}</p>
+      <div className="text-center  tracking-wider">
+        <h2 className="font-semibold bower text-lg">{name}</h2>
+        <p className="text-gray-600 brogman text-center text-sm">{designation}</p>
       </div>
     </div>
   );

@@ -1,5 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import { Suspense, lazy } from "react";
+import ScrollToTop from "./components/ScrollToTop";
 
 // Lazy load all pages
 const Landing = lazy(() => import("./pages/Landing"));
@@ -32,6 +33,7 @@ const Legal = lazy(() => import("./pages/LegalStatement")); // changed from name
 const App = () => {
   return (
     <Suspense fallback={null}>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/contact-us" element={<Contact />} />
