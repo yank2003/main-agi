@@ -40,7 +40,7 @@ const Landing = () => {
           easing="ease-out"
           initialOpacity={0}
         >
-          <div className="absolute top-105 tracking-wider left-0 w-full h-full z-20 flex items-center px-20">
+          <div className="absolute top-110 tracking-wider left-0 w-full h-full z-20 flex items-center px-20">
             <div className="space-y-8 text-white">
               <FadeContent delay={0} {...fadeProps}>
                 <h1 className="brogman text-2xl tracking-wider font-bold">
