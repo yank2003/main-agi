@@ -1,4 +1,4 @@
-import { useRef } from "react";
+// import { useRef } from "react";
 import Navbar from "../components/Navbar";
 import ReactPlayer from "react-player";
 import FadeContent from "../animations/FadeContent.jsx";
@@ -7,7 +7,7 @@ import Hero from "../components/Hero.jsx";
 import Footer from "../components/Footer.jsx";
 
 const Landing = () => {
-  const imageRef = useRef(null);
+  // const imageRef = useRef(null);
 
   return (
     <div>
